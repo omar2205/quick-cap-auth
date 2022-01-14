@@ -1,0 +1,15 @@
+{
+	"appId": "nl.oskr.dev2",
+	"appName": "a-quick-auth",
+	"webDir": "dist",
+	"bundledWebRuntime": false,
+	"plugins": {
+		"FirebaseAuthentication": {
+			"skipNativeAuth": false,
+			"providers": [
+				"apple.com",
+				"google.com"
+			]
+		}
+	}
+}
